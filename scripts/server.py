@@ -17,7 +17,7 @@ async def handle(c_socket):
 """
 async def start():
     host = '127.0.0.1'
-    port = 8080
+    port = 80
 
     # Server side socket jazz -> create, bind, listen and accept followed by receive and send
     s_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
